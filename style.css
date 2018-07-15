@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+header {
+    background: url('background.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+}
+
+nav {
+    background: #fff;
+    height: 100px;
+    border-bottom: 1px solid;
+}
+
+nav img {
+    padding: 20px
+}
+
+.header--section {
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 35%;
+
+}
+
+.header--section h1{
+    font-size: 3em;
+}
+
+.header--section * , .quate--section div *{
+    margin-bottom: 15px;
+    text-align: center;
+}
+.header--section div input {
+    padding: 12px;
+    width: 300px;
+}
+
+.header--section div button {
+    background: #3fafef;
+    padding: 13px;
+    border: 0;
+    width: 165px;
+    color: #fff;
+    cursor: pointer;
+}
+.quate--section div{
+    background: #331d13;
+    height: 150px;
+    text-align: center;
+    position: relative;
+}
+
+.quate--section div h2 {
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 35%;
+    color: #fff;
+}
+
+.quate--section div p {
+    width: 500px;
+    position: absolute;
+    top: 70%;
+    transform: translateY(-50%);
+    left: 35%;
+    color: #fff;
+
+}
+
+.quate--section {
+    position: relative;
+}
+.quate--section:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    margin-left: -1rem;
+    width: .5rem;
+    z-index: 1;
+    border-top: 1.5rem solid #331d13;
+    border-left: 2rem solid transparent;
+    border-right: 2rem solid transparent;
+    bottom: -1.5rem;
+}
